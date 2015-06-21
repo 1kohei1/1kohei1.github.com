@@ -15,12 +15,13 @@
 
 /* Jekyll Bootstrap Colors */
 h1, h2, h3, h4 {
-  color: #f22430;
+  opacity: 0.99;
+  font-weight: bold;
 }
+
 #footer {
   background-color: #fdcd60;
 }
-
 
 
 /* posts index */
@@ -77,3 +78,33 @@ h1, h2, h3, h4 {
   background: #57A957;
   border: 1px solid #4c964d;
   color: #FFF; }
+
+/* ==========================================================================
+   Code style because I like bootstrap code style.
+   ========================================================================== */
+
+code,
+kbd,
+pre,
+samp {
+  font-family: monospace, monospace; }
+
+code,
+kbd,
+pre,
+samp {
+  font-family: Menlo, Monaco, Consolas, "Courier New", monospace; }
+code {
+  padding: 2px 4px;
+  font-size: 90%;
+  color: #c7254e;
+  background-color: #f9f2f4;
+  border-radius: 4px; }
+
+pre code {
+  padding: 0;
+  font-size: 90%;
+  color: inherit;
+  white-space: pre-wrap;
+  background-color: transparent;
+  border-radius: 0; }

@@ -1,16 +1,25 @@
-<div class="page-header">
-  <h1>{{ page.title }} {% if page.tagline %}<small>{{page.tagline}}</small>{% endif %}</h1>
+<div class="content" role="main">
+  <article class="post">
+    <header class="post-header">
+      <h1 class="post-title">{{ page.title }}</h1>
+      <section class="post-meta">
+        <time class="post-date" date-time="{{ page.date }}">{{ page.date | date_to_long_string }}</time>
+      </section>
+    </header>
+
+    <section class="post-content">
+      {{ content }}      
+    </section>
+  </article>
 </div>
 
-<div class="row post-full">
-  <div class="col-xs-12">
-    <div class="date">
-      <span>{{ page.date | date_to_long_string }}</span>
-    </div>
-    <div class="content">
-      {{ content }}
-    </div>
+<!-- tags -->
 
+<!-- Author -->
+
+<!-- Pagenation -->
+
+<!--
   {% unless page.categories == empty %}
     <ul class="tag_box inline">
       <li><i class="glyphicon glyphicon-open"></i></li>
@@ -19,6 +28,8 @@
     </ul>
   {% endunless %}  
 
+
+  <!-- Edit tags
   {% unless page.tags == empty %}
     <ul class="tag_box inline">
       <li><i class="glyphicon glyphicon-tags"></i></li>
@@ -27,21 +38,26 @@
     </ul>
   {% endunless %}  
   
+  
     <hr>
     <ul class="pagination">
     {% if page.previous %}
-      <li class="prev"><a href="{{ BASE_PATH }}{{ page.previous.url }}" title="{{ page.previous.title }}">&laquo; Previous</a></li>
+      <li class="prev"><a href="{{ BASE_PATH }}{{ page.previous.url }}" title="{{ page.previous.title }}">&laquo; {{ page.previous.title }}</a></li>
     {% else %}
       <li class="prev disabled"><a>&larr; Previous</a></li>
     {% endif %}
-      <li><a href="{{ BASE_PATH }}{{ site.JB.archive_path }}">Archive</a></li>
+      <!-- <li><a href="{{ BASE_PATH }}{{ site.JB.archive_path }}">Archive</a></li> 
     {% if page.next %}
-      <li class="next"><a href="{{ BASE_PATH }}{{ page.next.url }}" title="{{ page.next.title }}">Next &raquo;</a></li>
+      <li class="next"><a href="{{ BASE_PATH }}{{ page.next.url }}" title="{{ page.next.title }}">{{ page.next.title }} &raquo;</a></li>
     {% else %}
       <li class="next disabled"><a>Next &rarr;</a>
     {% endif %}
     </ul>
+   
     <hr>
-    {% include JB/comments %}
+
+    <!-- Let's put custom comment 
+    <!-- {% include JB/comments %}
   </div>
 </div>
+ -->
