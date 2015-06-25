@@ -1,12 +1,13 @@
 ---
 layout: post
-title: "Filter md-autocomplete items without using functions"
-description: ""
+permalink: Filter-md-autocomplete-items-without-function
+title: "Filter md-autocomplete items without function"
+description: "This is about filtering items without function in the controller."
 category: 
-tags: ["AngularJS", "Angular Material"]
+tags: [AngularJS, Angular Material]
 ---
 {% include JB/setup %}
-This is about filtering shown items without using functions in the controller.
+This is about filtering items without function in the controller.
 
 {% highlight html %}
 <md-autocomplete md-selected-item="ctrl.sampleValue" 
