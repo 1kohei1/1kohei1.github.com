@@ -1,17 +1,37 @@
-<div class="content" role="main">
-  <article class="post">
-    <header class="post-header">
-      <h1 class="post-title">{{ page.title }}</h1>
-      <section class="post-meta">
-        <time class="post-date" date-time="{{ page.date }}">{{ page.date | date_to_long_string }}</time>
-      </section>
-    </header>
 
-    <section class="post-content">
-      {{ content }}      
+<article class="post">
+
+  <!-- want to cut here as post-header -->
+  <header class="post-header">
+    <h1 class="post-title">{{ page.title }}</h1>
+    <section class="post-meta">
+      <time class="post-date" date-time="{{ page.date }}">{{ page.date | date_to_long_string }}</time>
+      {% unless page.tags == empty %}
+        {% assign tags_list = page.tags %}
+        {% include custom/tags_list %}
+      {% endunless %}
     </section>
-  </article>
-</div>
+  </header>
+
+  <section class="post-content">
+    {{ content }}
+  </section>
+
+  <!-- want to cut here as post-footer -->
+  <footer class="post-footer">
+    <div class="grid">
+      <div class="col-4-12 mobile-col-4-12">
+        <div class="author-image2">
+            <a href="{{ BASE_PATH }}" class="img2" style="background-image: url(https://en.gravatar.com/userimage/73295402/5d5cd749b36716675ab7e83d052457e7.jpg)"><span class="hidden">Kohei Arai's Picture</span></a>            
+        </div>
+      </div>
+      <div class="col-8-12 mobile-col-8-12" id="footer-right">
+        <h4>Kohei Arai</h4>
+        <p>Student at <a href="http://www.ucf.edu/">UCF</a>. Majoring in Computer Science</p>
+      </div>
+    </div>
+  </footer>
+</article>
 
 <!-- tags -->
 
@@ -25,7 +45,7 @@
       <li><i class="glyphicon glyphicon-open"></i></li>
       {% assign categories_list = page.categories %}
       {% include JB/categories_list %}
-    </ul>
+      </ul>
   {% endunless %}  
 
 

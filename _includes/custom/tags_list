@@ -1,0 +1,3 @@
+{% for tag in tags_list %} 
+	<code><a href="{{ BASE_PATH }}{{ site.JB.tags_path }}#{{ tag }}-ref" class="post-tag">{{ tag }}</a></code>
+{% endfor %}
