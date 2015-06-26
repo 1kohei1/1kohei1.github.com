@@ -20,5 +20,6 @@ If ng-model is a simple primitive data type, Angular Material selects and highli
 {% endhighlight %}
 
 For forks who are interested in the entire code, I embedded the codepen here. Feel free to play around.
+
 <p data-height="268" data-theme-id="0" data-slug-hash="gpXdjQ" data-default-tab="result" data-user="1kohei1" class='codepen'>See the Pen <a href='http://codepen.io/1kohei1/pen/gpXdjQ/'>Set Default option for md-select</a> by Kohei Arai (<a href='http://codepen.io/1kohei1'>@1kohei1</a>) on <a href='http://codepen.io'>CodePen</a>.</p>
 <script async src="//assets.codepen.io/assets/embed/ei.js"></script>
