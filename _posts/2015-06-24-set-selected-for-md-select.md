@@ -1,6 +1,6 @@
 ---
 layout: post
-permalink: set-Default-option-of-md-select
+permalink: set-default-option-of-md-select
 title: "Set Default Option of md-select"
 description: "This is about setting an option of md-select when ng-model is an object."
 category: 
