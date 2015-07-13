@@ -114,6 +114,14 @@ pre code {
 .post-template .post-tag {
   font-size: 80%; }
 
+.post-list-link {
+  text-decoration: none;
+}
+
+.post-list-link:hover {
+  text-decoration: underline;
+}
+
 .post-footer {
   margin: 3rem 0 0 0;
   padding: 3rem 0 0 0; }
