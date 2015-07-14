@@ -114,6 +114,15 @@ pre code {
 .post-template .post-tag {
   font-size: 80%; }
 
+.post-list {
+  list-style: none;
+  padding: 0;
+}
+
+.post-list-item {
+  margin: 0.4em 0 1.0em 0;
+}
+
 .post-list-link {
   text-decoration: none;
 }
