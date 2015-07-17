@@ -45,27 +45,13 @@
     <link href="{{ BASE_PATH }}{{ site.JB.atom_path }}" type="application/atom+xml" rel="alternate" title="Sitewide ATOM Feed">
     <link href="{{ BASE_PATH }}{{ site.JB.rss_path }}" type="application/rss+xml" rel="alternate" title="Sitewide RSS Feed">
   </head>
-
-
-
   <body class="post-template">
     <div class="site-wrapper">
-
-      <div class="content" role="main" style="margin-top: 100px">
+      <div class="content site-top-padding" role="main">
         {{ content }}
       </div>
 
     </div>
-
-<!--     <div id="footer">
-      <div class="container">
-        <p>&copy; {{ site.time | date: '%Y' }} {{ site.author.name }}
-          with help from <a href="http://jekyllbootstrap.com" target="_blank" title="The Definitive Jekyll Blogging Framework">Jekyll Bootstrap</a>
-          and <a href="http://getbootstrap.com" target="_blank">Bootstrap</a>
-        </p>
-      </div>
-    </div>
- -->
     {% include JB/analytics %}
 
 

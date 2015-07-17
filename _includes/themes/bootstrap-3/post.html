@@ -19,65 +19,8 @@
 
   <!-- want to cut here as post-footer -->
   <footer class="post-footer">
-    <div class="grid">
-      <div class="col-4-12 mobile-col-4-12">
-        <div class="author-image2">
-            <a href="{{ BASE_PATH }}" class="img2" style="background-image: url(https://en.gravatar.com/userimage/73295402/5d5cd749b36716675ab7e83d052457e7.jpg)"><span class="hidden">Kohei Arai's Picture</span></a>            
-        </div>
-      </div>
-      <div class="col-8-12 mobile-col-8-12" id="footer-right">
-        <h4>Kohei Arai</h4>
-        <p>Student at <a href="http://www.ucf.edu/">UCF</a>. Majoring in Computer Science</p>
-      </div>
-    </div>
+    <a href="/" class="menu-button">
+      <span class="word">← Home</span>
+    </a>
   </footer>
 </article>
-
-<!-- tags -->
-
-<!-- Author -->
-
-<!-- Pagenation -->
-
-<!--
-  {% unless page.categories == empty %}
-    <ul class="tag_box inline">
-      <li><i class="glyphicon glyphicon-open"></i></li>
-      {% assign categories_list = page.categories %}
-      {% include JB/categories_list %}
-      </ul>
-  {% endunless %}  
-
-
-  <!-- Edit tags
-  {% unless page.tags == empty %}
-    <ul class="tag_box inline">
-      <li><i class="glyphicon glyphicon-tags"></i></li>
-      {% assign tags_list = page.tags %}
-      {% include JB/tags_list %}
-    </ul>
-  {% endunless %}  
-  
-  
-    <hr>
-    <ul class="pagination">
-    {% if page.previous %}
-      <li class="prev"><a href="{{ BASE_PATH }}{{ page.previous.url }}" title="{{ page.previous.title }}">&laquo; {{ page.previous.title }}</a></li>
-    {% else %}
-      <li class="prev disabled"><a>&larr; Previous</a></li>
-    {% endif %}
-      <!-- <li><a href="{{ BASE_PATH }}{{ site.JB.archive_path }}">Archive</a></li> 
-    {% if page.next %}
-      <li class="next"><a href="{{ BASE_PATH }}{{ page.next.url }}" title="{{ page.next.title }}">{{ page.next.title }} &raquo;</a></li>
-    {% else %}
-      <li class="next disabled"><a>Next &rarr;</a>
-    {% endif %}
-    </ul>
-   
-    <hr>
-
-    <!-- Let's put custom comment 
-    <!-- {% include JB/comments %}
-  </div>
-</div>
- -->
