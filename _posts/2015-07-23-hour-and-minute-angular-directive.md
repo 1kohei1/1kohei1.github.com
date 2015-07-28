@@ -106,4 +106,4 @@ function setUpView(hour, minute, cursorPos) {
 {% endhighlight %}
 Set the `preValue`, change the input view, and set the cursor at appropriate position.
 
-If there is anything unclear, play with [codepen](http://codepen.io/1kohei1/pen/ZGqqgq?editors=001) or [Github gist](https://gist.github.com/1kohei1/d48461d69782332e6b36). Thank you!
+This [link](http://fdietz.github.io/recipes-with-angular-js/directives/passing-configuration-params-using-html-attributes.html) was helpful to pass the variable from view to directive. If there is anything unclear, play with [codepen](http://codepen.io/1kohei1/pen/ZGqqgq?editors=001) or [Github gist](https://gist.github.com/1kohei1/d48461d69782332e6b36). Thank you!
