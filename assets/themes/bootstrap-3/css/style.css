@@ -14,17 +14,8 @@
   float: right; }*/
 
 /* Jekyll Bootstrap Colors */
-h1, h2, h3, h4 {
-  opacity: 0.99;
-}
-
 #footer {
   background-color: #fdcd60;
-}
-
-.post-content {
-  opacity: 0.99;
-  color: #232729;
 }
 
 /* posts index */
