@@ -3,7 +3,7 @@ layout: post
 title: "Amazing Book! ~Cracking the Coding Interview~"
 description: "My review about sixth edition of Cracking the Coding Interview"
 category: 
-tags: [Book]
+tags: [Book, Cracking the Coding Interview]
 ---
 {% include JB/setup %}
 When I got at the office this morning, there was a book on my desk. It was [Cracking the Coding Interview, 6th Edition](http://www.amazon.com/Cracking-Coding-Interview-6th-Edition/dp/0984782850). I wondered who put the book and what the book was about. I read the short bio of author on the back, and I got excited about the book's contents. The author, Gayle Laakmann Mcdowell has worked at Google, Microsoft, and Apple; not as sales or marketing, but as a software engineer. 
