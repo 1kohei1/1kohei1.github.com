@@ -1,21 +1,9 @@
-Skip to content
-This repository  
-Pull requests
-Issues
-Gist
- @1kohei1
- Watch 56
-  Star 469
- Fork 707TryGhost/Casper
- branch: master  Casper/assets/css/screen.css
-@PaulAdamDavisPaulAdamDavis on Apr 23 Remove border from menu button on small screens
-20 contributors @JohnONolan @PaulAdamDavis @mankittens @novaugust @designbyjake @willglynn @crepererum @namanyayg @JoeBonham @Douten @janoskk @nicdutil @HLFH @marchdoe @tomkwok @kezzbracey @conradkleinespel @cobbspur @alicoding @AlexanderGalen
-RawBlameHistory     2067 lines (1772 sloc)  42.759 kB
 /* ==========================================================================
    Table of Contents
    ========================================================================== */
 
 /*
+
     0.  Normalize
     1.  Icons
     2.  General
@@ -30,6 +18,7 @@ RawBlameHistory     2067 lines (1772 sloc)  42.759 kB
     11. Media Queries (Tablet)
     12. Media Queries (Mobile)
     13. Animations
+
 */
 
 /* ==========================================================================
@@ -1452,6 +1441,9 @@ body:not(.post-template) .post-title {
 /* if there are two posts without covers, put a border between them */
 .read-next-story.no-cover + .read-next-story.no-cover {
     border-left: rgba(0,0,100,0.04) 1px solid;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
 }
 
 /* Correctly position site-footer when next to the .read-next container */

@@ -111,6 +111,10 @@ pre code {
   padding-top: 100px;
 }
 
+.post-content {
+  opacity: 0.99;
+}
+
 .post-template .post-tag {
   font-size: 80%; 
 }
