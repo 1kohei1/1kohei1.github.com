@@ -3,7 +3,7 @@ layout: post
 title: "Use ng-messages without form"
 description: ""
 category: 
-tags: [AngularJs, Angular Material]
+tags: [AngularJS, Angular Material]
 ---
 {% include JB/setup %}
 
