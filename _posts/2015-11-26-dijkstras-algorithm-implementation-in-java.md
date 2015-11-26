@@ -38,4 +38,4 @@ public static void dijkstra(int start, int end) {
 
 The run time analysis of this function is O(n^2). The worst case is to put all nodes into queue, and n times to get the minimum value. The Wikipedia page about Dijkstra's algorithm says the algorithm runs in O(E + V * logV). E is the number of edges, and V is the number of nodes. This is done by using min-priority queue implemented by [Fibonacci heap](https://en.wikipedia.org/wiki/Fibonacci_heap). 
 
-Since I was not familiar with Fibonacci heap, I implemented by myself. But will update the function once figure out how to implement fibonacci heap later on. My entire test cases and input/output codes are found on [Github gist](https://gist.github.com/1kohei1/b2ab4c1cd44d9596c86e).
+Since I was not familiar with Fibonacci heap, I implemented by myself. But will update the function once figure out how to implement fibonacci heap later on. This [video](https://www.youtube.com/watch?v=gdmfOwyQlcI) helped me to learn how things work. My entire test cases and input/output codes are found on [Github gist](https://gist.github.com/1kohei1/b2ab4c1cd44d9596c86e).
