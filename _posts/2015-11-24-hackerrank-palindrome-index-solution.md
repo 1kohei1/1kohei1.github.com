@@ -3,7 +3,7 @@ layout: post
 title: "HackerRank Palindrome Index Solution"
 description: "My solution to hackerrank palindrome problem"
 category: 
-tags: [Algorithm]
+tags: [Hackerrank]
 ---
 {% include JB/setup %}
 

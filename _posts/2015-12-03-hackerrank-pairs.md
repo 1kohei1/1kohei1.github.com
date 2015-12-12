@@ -3,7 +3,7 @@ layout: post
 title: "Hackerrank: Pairs"
 description: "Explain different approach to hackerrank problem Pairs"
 category: 
-tags: [Algorithm]
+tags: [Hackerrank]
 ---
 {% include JB/setup %}
 
