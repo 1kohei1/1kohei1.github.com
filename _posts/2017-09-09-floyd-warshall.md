@@ -4,6 +4,7 @@ title: "ワーシャルフロイドの最小の初期値"
 description: ""
 category: 
 tags: [競プロ]
+image: "/assets/floyd-warshall/wa-1.png"
 ---
 {% include JB/setup %}
 今日は[ABC-73](http://abc073.contest.atcoder.jp/)でした。D問題を勘違いして解けませんでした。

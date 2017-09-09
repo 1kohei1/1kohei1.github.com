@@ -11,19 +11,7 @@
     <meta name="twitter:site" content="@koheiarai94">
     <meta name="twitter:title" content="{{ page.title }}">
     <meta name="twitter:description" content="{{ page.content | strip_html | xml_escape | truncate: 200 }}">
-    {% assign foundImage = 0 %}
-    {% assign images = post.content | split:"<img " %}
-    {% for image in images %}
-      {% if image contains 'src' %}
-
-          {% if foundImage == 0 %}
-              {% assign html = image | split:"/>" | first %}
-              <meta name="twitter:image:src" content="{{ html }}" />
-              {% assign foundImage = 1 %}
-          {% endif %}
-      {% endif %}
-    {% endfor %}
-    <meta name="twitter:image:src" content="">
+    <meta name="twitter:image:src" content="{{ page.image }}">
 
     <!-- Enable responsive viewport -->
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
